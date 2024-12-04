@@ -1,4 +1,5 @@
 module.exports = {
-  placeholderName: "ZllRnTemplate",
+  placeholderName: "OCWorld",
+  titlePlaceholder: 'Hello App Display Name',
   templateDir: "./template",
 };
