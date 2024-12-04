@@ -1,0 +1,12 @@
+{
+  "name": "zll_rn_template",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "template",
+    "template.config.js"
+  ]
+}

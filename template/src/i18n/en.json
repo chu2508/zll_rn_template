@@ -1,0 +1,11 @@
+{
+  "mood": {
+    "great": "Great",
+    "good": "Good",
+    "neutral": "Neutral",
+    "bad": "Bad",
+    "terrible": "Terrible",
+    "How would you describe your mood": "How would you describe your mood?",
+    "I Feel": "I Feel "
+  }
+}

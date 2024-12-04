@@ -1,0 +1,16 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "paths": {
+      "@src/*": ["./src/*"],
+      "@ui/*": ["./ui/*"]
+    },
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/**/*", // 包含你的源代码
+    "ui/**/*",
+    "**/*.d.ts"
+  ]
+}

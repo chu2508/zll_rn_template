@@ -1,0 +1,18 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "always",
+        "source.sortImports": "never",
+        "source.fixAll.ts": "always",
+        "source.organizeImports": "never",
+        "source.organizeLinkDefinitions": "never"
+    },
+    "i18n-ally.localesPaths": [
+        "src/i18n",
+        "ios/Pods/RCT-Folly/folly/lang",
+        "ios/Pods/boost/boost/locale",
+        "ios/Pods/boost/boost/predef/language",
+        "ios/Pods/Headers/Private/RCT-Folly/folly/lang",
+        "ios/Pods/Headers/Public/RCT-Folly/folly/lang"
+    ],
+    "i18n-ally.keystyle": "nested"
+}

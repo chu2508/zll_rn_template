@@ -1,0 +1,11 @@
+{
+  "mood": {
+    "great": "很棒",
+    "good": "不错",
+    "neutral": "一般",
+    "bad": "不好",
+    "terrible": "很糟",
+    "How would you describe your mood": "你如何描述你的心情？",
+    "I Feel": "我感觉"
+  }
+}
