@@ -1,0 +1,371 @@
+{
+  "home": {
+    "overview": {
+      "title": "数据概览",
+      "timeRanges": {},
+      "stats": {
+        "totalProjects": "总项目",
+        "activeProjects": "活跃项目",
+        "workHours": "工时投入",
+        "investment": "投入资金",
+        "revenue": "产出收益",
+        "roi": "投资回报率"
+      }
+    },
+    "bostonMatrix": {
+      "title": "波士顿矩阵",
+      "axis": {},
+      "quadrants": {
+        "starProject": "明星项目",
+        "questionMark": "问题项目",
+        "cashCow": "金牛项目",
+        "deadDog": "瘦狗项目"
+      }
+    },
+    "profitTrend": {
+      "title": "收益趋势",
+      "legend": {
+        "revenue": "收益",
+        "investment": "投入",
+        "workHours": "工时"
+      },
+      "axis": {}
+    }
+  },
+  "common": {
+    "time": {
+      "year": "年",
+      "month": "月",
+      "week": "周"
+    },
+    "cancel": "取消",
+    "picker": {
+      "currency": "选择货币符号"
+    }
+  },
+  "timeFormat": {
+    "date": "YYYY年MM月DD日",
+    "dateTime": "YYYY年MM月DD日 HH:mm",
+    "monthDay": "MM月DD日",
+    "yearMonth": "YYYY年MM月",
+    "year": "YYYY年"
+  },
+  "navigation": {
+    "tabs": {
+      "home": "首页",
+      "resource": "资源",
+      "profile": "我的"
+    },
+    "root": {
+      "todoEdit": "编辑待办事项",
+      "projectDetail": "项目详情",
+      "createProject": "创建项目",
+      "createLog": "创建日志",
+      "paywall": "订阅",
+      "dataSync": "数据同步",
+      "dataExport": "数据导入/导出"
+    }
+  },
+  "resource": {
+    "actions": {
+      "addProject": "添加项目",
+      "addLog": "添加日志",
+      "addUser": "添加用户"
+    },
+    "stats": {
+      "totalProjects": "项目数",
+      "activeProjects": "活跃中",
+      "archivedProjects": "已归档"
+    },
+    "project": {
+      "workHours": "工时",
+      "investment": "投入",
+      "revenue": "收益",
+      "targetAmount": "目标金额",
+      "lastUpdated": "最后更新",
+      "status": {
+        "planning": "规划中",
+        "developing": "开发中",
+        "operating": "运营中",
+        "archived": "已归档"
+      },
+      "empty": {}
+    },
+    "searchBar": {
+      "placeholder": "请输入项目名称搜索"
+    }
+  },
+  "profile": {
+    "subscription": {
+      "free": "免费版",
+      "pro": "专业版",
+      "subscribed": "已订阅",
+      "validUntil": "有效期至 {{date}}",
+      "permanent": "永久有效",
+      "upgradeHint": "升级到专业版解锁所有功能"
+    },
+    "groups": {
+      "preferences": "偏好设置",
+      "dataManagement": "数据管理",
+      "support": "支持与反馈",
+      "followUs": "关注我们"
+    },
+    "items": {
+      "language": "语言",
+      "currency": "货币符号",
+      "dataExport": "数据导入/导出",
+      "rateApp": "评价应用",
+      "shareApp": {
+        "title": "分享应用"
+      },
+      "feedback": {
+        "title": "发送反馈",
+        "subject": "OnePersonBusiness 需要帮助",
+        "body": "请在这里输入您的反馈内容",
+        "success": "邮件发送成功",
+        "error": "邮件发送失败"
+      },
+      "redBook": "小红书"
+    },
+    "version": "版本 {{version}}"
+  },
+  "project": {
+    "create": {
+      "title": "基本信息",
+      "name": {
+        "label": "项目名称",
+        "placeholder": "请输入项目名称",
+        "validation": {
+          "required": "项目名称不能为空",
+          "maxLength": "项目名称不能超过50个字符"
+        }
+      },
+      "targetAmount": {
+        "label": "目标金额",
+        "placeholder": "请输入目标金额",
+        "validation": {
+          "required": "目标金额不能为空",
+          "min": "目标金额不能小于0",
+          "invalid": "请输入有效的数字"
+        }
+      },
+      "status": {
+        "label": "项目状态",
+        "validation": {
+          "required": "请选择项目状态"
+        }
+      },
+      "description": {
+        "label": "项目描述",
+        "placeholder": "请输入项目描述（选填）",
+        "validation": {
+          "maxLength": "描述不能超过500个字符"
+        }
+      },
+      "createdAt": {
+        "label": "创建时间",
+        "picker": {
+          "title": "选择创建时间",
+          "confirm": "确定",
+          "cancel": "取消"
+        }
+      },
+      "delete": {
+        "title": "删除项目",
+        "message": "确定要删除这个项目吗？删除后将无法恢复，项目相关的所有数据都会被清除。",
+        "cancel": "取消",
+        "confirm": "删除"
+      },
+      "save": "保存",
+      "error": "未知错误"
+    },
+    "log": {
+      "create": {
+        "projectInfo": {
+          "label": "项目信息",
+          "validation": {
+            "required": "请选择项目"
+          }
+        },
+        "selectProject": {
+          "label": "选择项目",
+          "placeholder": "请选择项目"
+        },
+        "logInfo": "日志信息",
+        "createdAt": {
+          "label": "创建时间",
+          "picker": {
+            "title": "选择创建时间",
+            "confirm": "确定",
+            "cancel": "取消"
+          },
+          "validation": {
+            "required": "创建时间不能为空"
+          }
+        },
+        "workHours": {
+          "label": "投入工时",
+          "placeholder": "请输入投入工时",
+          "validation": {
+            "min": "工时不能小于0"
+          }
+        },
+        "investment": {
+          "label": "投入资金",
+          "placeholder": "请输入投入资金",
+          "validation": {
+            "min": "投入资金不能小于0"
+          }
+        },
+        "revenue": {
+          "label": "获得收益",
+          "placeholder": "请输入获得收益",
+          "validation": {
+            "min": "获得收益不能小于0"
+          }
+        },
+        "remark": {
+          "label": "备注",
+          "placeholder": "请输入备注（选填）",
+          "validation": {
+            "maxLength": "备注不能超过500个字符"
+          }
+        },
+        "validation": {
+          "atLeastOne": "工时、资金、收益至少填写一项"
+        },
+        "save": "保存"
+      },
+      "list": {
+        "empty": "暂无日志记录",
+        "workHours": "{{hours}}小时",
+        "investment": "投入{{symbol}}{{amount}}",
+        "revenue": "收益{{symbol}}{{amount}}"
+      }
+    },
+    "detail": {
+      "notFound": "项目不存在",
+      "overview": {
+        "workHours": "累计工时",
+        "hoursUnit": "小时",
+        "investment": "总投入",
+        "revenue": "总收益"
+      },
+      "info": {
+        "createdAt": "创建时间",
+        "targetAmount": "目标金额",
+        "lastUpdated": "最后更新",
+        "description": "项目描述"
+      },
+      "tabs": {
+        "todos": "待办事项",
+        "logs": "项目日志"
+      },
+      "todo": {
+        "complete": {
+          "title": "完成任务",
+          "message": "是否需要记录此任务的工时？",
+          "skip": "跳过",
+          "record": "记录",
+          "hours": {
+            "title": "记录工时",
+            "message": "请输入任务耗时（小时）",
+            "cancel": "取消",
+            "confirm": "确认",
+            "invalid": "请输入有效的工时数"
+          }
+        },
+        "delete": {
+          "title": "删除待办",
+          "message": "确定要删除待办事项“{{content}}”吗？",
+          "cancel": "取消",
+          "confirm": "删除",
+          "success": "删除成功",
+          "error": "删除失败"
+        }
+      }
+    }
+  },
+  "todo": {
+    "list": {
+      "input": {
+        "placeholder": "添加新的待办事项..."
+      },
+      "filter": {
+        "pending": "待办事项 ({{count}})",
+        "showCompleted": "显示已完成",
+        "hideCompleted": "隐藏已完成",
+        "completed": "已完成 ({{count}})"
+      },
+      "empty": "暂无待办任务",
+      "dueDate": "截止：{{date}}"
+    },
+    "status": {
+      "urgentImportant": "重要且紧急",
+      "important": "重要不紧急",
+      "urgent": "紧急不重要",
+      "normal": "普通任务"
+    }
+  },
+  "paywall": {
+    "appStore": {
+      "featured": "App Store 本周编辑推荐"
+    },
+    "title": "升级到 Pro 以获得更多效率与乐趣",
+    "subtitle": "解锁所有高级功能，提升您的项目管理效率",
+    "package": {
+      "lifetime": "终身会员",
+      "annual": "年度计划",
+      "monthly": "月度计划",
+      "popular": "最受欢迎",
+      "trial": "前 {{days}} 天免费试用",
+      "discount": "优惠 {{value}}%",
+      "priceForMonthly": "每月",
+      "priceForYear": "每年"
+    },
+    "features": {
+      "title": "Pro 特权",
+      "unlimited": {
+        "title": "无限项目",
+        "description": "创建无限数量的项目，记录每一个创意"
+      },
+      "stats": {
+        "title": "数据分析",
+        "description": "项目数据可视化，波士顿矩阵助您决策"
+      },
+      "todo": {
+        "title": "高级待办",
+        "description": "优先级管理，工时记录，进度追踪"
+      },
+      "sync": {
+        "title": "数据同步",
+        "description": "多设备数据同步，随时随地访问"
+      },
+      "export": {
+        "title": "数据导出",
+        "description": "支持导出项目数据，方便分析和备份"
+      }
+    },
+    "terms": {
+      "notice": "订阅须知",
+      "details": "• 订阅期间可以使用所有高级功能\n• 订阅到期后自动续费，可随时取消\n• 未使用的试用期在购买后失效"
+    },
+    "links": {
+      "terms": "用户协议",
+      "privacy": "隐私条款",
+      "restore": "恢复购买"
+    },
+    "cta": {
+      "lifetime": "一次付费，永久使用",
+      "trial": "前 {{days}} 天免费试用，之后按{{period}}付费",
+      "select": "选择订阅方案开始免费试用",
+      "start": "开始使用",
+      "choose": "请选择方案"
+    }
+  },
+  "subscription": {
+    "yearly_view_locked": "升级到专业版即可查看年度数据分析",
+    "boston_matrix_locked": "升级到专业版即可使用波士顿矩阵分析",
+    "project_limit_reached": "免费版仅支持创建3个项目，升级到专业版即可创建无限个项目"
+  }
+}

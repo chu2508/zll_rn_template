@@ -1,0 +1,366 @@
+{
+  "home": {
+    "overview": {
+      "title": "數據概覽",
+      "timeRanges": {},
+      "stats": {
+        "totalProjects": "總專案",
+        "activeProjects": "活躍專案",
+        "workHours": "工時投入",
+        "investment": "投入資金",
+        "revenue": "產出收益",
+        "roi": "投資回報率"
+      }
+    },
+    "bostonMatrix": {
+      "title": "波士頓矩陣",
+      "axis": {},
+      "quadrants": {
+        "starProject": "明星專案",
+        "questionMark": "問題專案",
+        "cashCow": "金牛專案",
+        "deadDog": "瘦狗專案"
+      }
+    },
+    "profitTrend": {
+      "title": "收益趨勢",
+      "legend": {
+        "revenue": "收益",
+        "investment": "投入",
+        "workHours": "工時"
+      },
+      "axis": {}
+    }
+  },
+  "common": {
+    "time": {
+      "year": "年",
+      "month": "月",
+      "week": "週"
+    },
+    "cancel": "取消",
+    "picker": {
+      "currency": "選擇貨幣符號"
+    }
+  },
+  "timeFormat": {
+    "date": "YYYY年MM月DD日",
+    "dateTime": "YYYY年MM月DD日 HH:mm",
+    "monthDay": "MM月DD日",
+    "yearMonth": "YYYY年MM月",
+    "year": "YYYY年"
+  },
+  "navigation": {
+    "tabs": {
+      "home": "首頁",
+      "resource": "資源",
+      "profile": "我的"
+    },
+    "root": {
+      "todoEdit": "編輯待辦事項",
+      "projectDetail": "專案詳情",
+      "createProject": "創建專案",
+      "createLog": "創建日誌",
+      "paywall": "訂閱",
+      "dataSync": "數據同步",
+      "dataExport": "數據導入/導出"
+    }
+  },
+  "resource": {
+    "actions": {
+      "addProject": "添加專案",
+      "addLog": "添加日誌",
+      "addUser": "添加用戶"
+    },
+    "stats": {
+      "totalProjects": "專案數",
+      "activeProjects": "活躍中",
+      "archivedProjects": "已歸檔"
+    },
+    "project": {
+      "workHours": "工時",
+      "investment": "投入",
+      "revenue": "收益",
+      "targetAmount": "目標金額",
+      "lastUpdated": "最後更新",
+      "status": {
+        "planning": "規劃中",
+        "developing": "開發中",
+        "operating": "運營中",
+        "archived": "已歸檔"
+      },
+      "empty": {}
+    },
+    "searchBar": {
+      "placeholder": "請輸入專案名稱搜索"
+    }
+  },
+  "profile": {
+    "subscription": {
+      "free": "免費版",
+      "pro": "專業版",
+      "subscribed": "已訂閱",
+      "validUntil": "有效期至 {{date}}",
+      "permanent": "永久有效",
+      "upgradeHint": "升級到專業版解鎖所有功能"
+    },
+    "groups": {
+      "preferences": "偏好設置",
+      "dataManagement": "數據管理",
+      "support": "支持與反饋",
+      "followUs": "關注我們"
+    },
+    "items": {
+      "language": "語言",
+      "currency": "貨幣符號",
+      "dataExport": "數據導入/導出",
+      "rateApp": "評價應用",
+      "shareApp": {
+        "title": "分享應用"
+      },
+      "feedback": {
+        "title": "發送反饋",
+        "subject": "OnePersonBusiness 需要幫助",
+        "body": "請在這裡輸入您的反饋內容",
+        "success": "郵件發送成功",
+        "error": "郵件發送失敗"
+      },
+      "redBook": "小紅書"
+    },
+    "version": "版本 {{version}}"
+  },
+  "project": {
+    "create": {
+      "title": "基本信息",
+      "name": {
+        "label": "專案名稱",
+        "placeholder": "請輸入專案名稱",
+        "validation": {
+          "required": "專案名稱不能为空",
+          "maxLength": "專案名稱不能超過50個字符"
+        }
+      },
+      "targetAmount": {
+        "label": "目標金額",
+        "placeholder": "請輸入目標金額",
+        "validation": {
+          "required": "目標金額不能为空",
+          "min": "目標金額不能小於0",
+          "invalid": "請輸入有效的數字"
+        }
+      },
+      "status": {
+        "label": "專案狀態",
+        "validation": {
+          "required": "請選擇專案狀態"
+        }
+      },
+      "description": {
+        "label": "專案描述",
+        "placeholder": "請輸入專案描述（選填）",
+        "validation": {
+          "maxLength": "描述不能超過500個字符"
+        }
+      },
+      "createdAt": {
+        "label": "創建時間",
+        "picker": {
+          "title": "選擇創建時間",
+          "confirm": "確定",
+          "cancel": "取消"
+        }
+      },
+      "delete": {
+        "title": "刪除專案",
+        "message": "確定要刪除這個專案嗎？刪除後將無法恢復，專案相關的所有數據都會被清除。",
+        "cancel": "取消",
+        "confirm": "刪除"
+      },
+      "save": "保存",
+      "error": "未知錯誤"
+    },
+    "log": {
+      "create": {
+        "projectInfo": {
+          "label": "項目信息",
+          "validation": {
+            "required": "請選擇專案"
+          }
+        },
+        "selectProject": {
+          "label": "選擇專案",
+          "placeholder": "請選擇專案"
+        },
+        "logInfo": "日誌信息",
+        "createdAt": {
+          "label": "創建時間",
+          "picker": {
+            "title": "選擇創建時間",
+            "confirm": "確定",
+            "cancel": "取消"
+          },
+          "validation": {
+            "required": "創建時間不能为空"
+          }
+        },
+        "workHours": {
+          "label": "投入工時",
+          "placeholder": "請輸入投入工時",
+          "validation": {
+            "min": "工時不能小於0"
+          }
+        },
+        "investment": {
+          "label": "投入資金",
+          "placeholder": "請輸入投入資金",
+          "validation": {
+            "min": "投入資金不能小於0"
+          }
+        },
+        "revenue": {
+          "label": "獲得收益",
+          "placeholder": "請輸入獲得收益",
+          "validation": {
+            "min": "獲得收益不能小於0"
+          }
+        },
+        "remark": {
+          "label": "備註",
+          "placeholder": "請輸入備註（選填）",
+          "validation": {
+            "maxLength": "備註不能超過500個字符"
+          }
+        },
+        "validation": {
+          "atLeastOne": "工時、資金、收益至少填寫一項"
+        },
+        "save": "保存"
+      },
+      "list": {
+        "empty": "暫無日誌記錄",
+        "workHours": "{{hours}}小時",
+        "investment": "投入{{symbol}}{{amount}}",
+        "revenue": "收益{{symbol}}{{amount}}"
+      }
+    },
+    "detail": {
+      "notFound": "專案不存在",
+      "overview": {
+        "workHours": "累計工時",
+        "hoursUnit": "小時",
+        "investment": "總投入",
+        "revenue": "總收益"
+      },
+      "info": {
+        "createdAt": "創建時間",
+        "targetAmount": "目標金額",
+        "lastUpdated": "最後更新",
+        "description": "專案描述"
+      },
+      "tabs": {
+        "todos": "待辦事項",
+        "logs": "專案日誌"
+      },
+      "todo": {
+        "complete": {
+          "title": "完成任務",
+          "message": "是否需要記錄此任務的工時？",
+          "skip": "跳過",
+          "record": "記錄",
+          "hours": {
+            "title": "記錄工時",
+            "message": "請輸入任務耗時（小時）",
+            "cancel": "取消",
+            "confirm": "確認",
+            "invalid": "請輸入有效的工時數"
+          }
+        },
+        "delete": {
+          "title": "刪除待辦",
+          "message": "確定要刪除待辦事項“{{content}}”嗎？",
+          "cancel": "取消",
+          "confirm": "刪除",
+          "success": "刪除成功",
+          "error": "刪除失敗"
+        }
+      }
+    }
+  },
+  "todo": {
+    "list": {
+      "input": {
+        "placeholder": "添加新的待辦事項..."
+      },
+      "filter": {
+        "pending": "待辦事項 ({{count}})",
+        "showCompleted": "顯示已完成",
+        "hideCompleted": "隱藏已完成",
+        "completed": "已完成 ({{count}})"
+      },
+      "empty": "暫無待辦任務",
+      "dueDate": "截止：{{date}}"
+    },
+    "status": {
+      "urgentImportant": "重要且緊急",
+      "important": "重要不緊急",
+      "urgent": "緊急不重要",
+      "normal": "普通任務"
+    }
+  },
+  "paywall": {
+    "appStore": {
+      "featured": "App Store 本週編輯推薦"
+    },
+    "title": "升級到 Pro 以獲得更多效率與樂趣",
+    "subtitle": "解鎖所有高級功能，提升您的專案管理效率",
+    "package": {
+      "lifetime": "終身會員",
+      "annual": "年度計劃",
+      "monthly": "月度計劃",
+      "popular": "最受歡迎",
+      "trial": "前 {{days}} 天免費試用",
+      "discount": "優惠 {{value}}%",
+      "priceForMonthly": "每月",
+      "priceForYear": "每年"
+    },
+    "features": {
+      "title": "Pro 特權",
+      "unlimited": {
+        "title": "無限專案",
+        "description": "創建無限數量的專案，記錄每一個創意"
+      },
+      "stats": {
+        "title": "數據分析",
+        "description": "專案數據可視化，波士頓矩陣助您決策"
+      },
+      "todo": {
+        "title": "高級待辦",
+        "description": "優先級管理，工時記錄，進度追蹤"
+      },
+      "sync": {
+        "title": "數據同步",
+        "description": "多設備數據同步，隨時隨地訪問"
+      },
+      "export": {
+        "title": "數據導出",
+        "description": "支持導出專案數據，方便分析和備份"
+      }
+    },
+    "terms": {
+      "notice": "訂閱須知",
+      "details": "• 訂閱期間可以使用所有高級功能\n• 訂閱到期後自動續費，可隨時取消\n• 未使用的試用期在購買後失效"
+    },
+    "links": {
+      "terms": "用戶協議",
+      "privacy": "隱私條款",
+      "restore": "恢復購買"
+    },
+    "cta": {
+      "lifetime": "一次付費，永久使用",
+      "trial": "前 {{days}} 天免費試用，之後按{{period}}付費",
+      "select": "選擇訂閱方案開始免費試用",
+      "start": "開始使用",
+      "choose": "請選擇方案"
+    }
+  }
+}

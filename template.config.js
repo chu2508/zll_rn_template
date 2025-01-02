@@ -1,5 +1,5 @@
 module.exports = {
-  placeholderName: "OCWorld",
+  placeholderName: "OnePersonBusiness",
   titlePlaceholder: 'Hello App Display Name',
-  templateDir: "./template",
+  templateDir: "./opb-app",
 };

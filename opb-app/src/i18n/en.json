@@ -1,0 +1,365 @@
+{
+  "home": {
+    "overview": {
+      "title": "Overview",
+      "timeRanges": {},
+      "stats": {
+        "totalProjects": "Total Projects",
+        "activeProjects": "Active Projects",
+        "workHours": "Work Hours",
+        "investment": "Investment",
+        "revenue": "Revenue",
+        "roi": "ROI"
+      }
+    },
+    "bostonMatrix": {
+      "title": "Boston Matrix",
+      "axis": {},
+      "quadrants": {
+        "starProject": "Star",
+        "questionMark": "Question Mark",
+        "cashCow": "Cash Cow",
+        "deadDog": "Dog"
+      }
+    },
+    "profitTrend": {
+      "title": "Profit Trend",
+      "legend": {
+        "revenue": "Revenue",
+        "investment": "Investment",
+        "workHours": "Hours"
+      },
+      "axis": {}
+    }
+  },
+  "common": {
+    "time": {
+      "year": "Year",
+      "month": "Month",
+      "week": "Week"
+    },
+    "cancel": "Cancel",
+    "picker": {
+      "currency": "Select Currency Symbol"
+    }
+  },
+  "timeFormat": {
+    "date": "MMM DD, YYYY",
+    "dateTime": "MMM DD, YYYY HH:mm",
+    "monthDay": "MMM DD",
+    "yearMonth": "MMM YYYY",
+    "year": "YYYY"
+  },
+  "navigation": {
+    "tabs": {
+      "home": "Home",
+      "resource": "Resources",
+      "profile": "Profile"
+    },
+    "root": {
+      "todoEdit": "Todo edit",
+      "projectDetail": "Project detail",
+      "createProject": "Create project",
+      "createLog": "Create log",
+      "paywall": "Paywall",
+      "dataSync": "Data sync",
+      "dataExport": "Data export"
+    }
+  },
+  "resource": {
+    "actions": {
+      "addProject": "Add Project",
+      "addLog": "Add Log",
+      "addUser": "Add User"
+    },
+    "stats": {
+      "totalProjects": "Projects",
+      "activeProjects": "Active",
+      "archivedProjects": "Archived"
+    },
+    "project": {
+      "workHours": "Hours",
+      "investment": "Investment",
+      "revenue": "Revenue",
+      "targetAmount": "Target",
+      "lastUpdated": "Last Updated",
+      "status": {
+        "planning": "Planning",
+        "developing": "Developing",
+        "operating": "Operating",
+        "archived": "Archived"
+      },
+      "empty": {}
+    },
+    "searchBar": {
+      "placeholder": "Search projects by name"
+    }
+  },
+  "profile": {
+    "subscription": {
+      "free": "Free",
+      "pro": "Pro",
+      "subscribed": "Subscribed",
+      "validUntil": "Valid until {{date}}",
+      "permanent": "Permanent",
+      "upgradeHint": "Upgrade to Pro for all features"
+    },
+    "groups": {
+      "preferences": "Preferences",
+      "dataManagement": "Data Management",
+      "support": "Support & Feedback",
+      "followUs": "Follow Us"
+    },
+    "items": {
+      "language": "Language",
+      "currency": "Currency",
+      "dataExport": "Import/Export Data",
+      "rateApp": "Rate App",
+      "shareApp": {
+        "title": "Share App"
+      },
+      "feedback": {
+        "title": "Send Feedback",
+        "subject": "OnePersonBusiness Support",
+        "body": "Please enter your feedback here",
+        "success": "Email sent successfully",
+        "error": "Failed to send email"
+      },
+      "redBook": "Xiaohongshu"
+    },
+    "version": "Version {{version}}"
+  },
+  "project": {
+    "create": {
+      "title": "Basic Info",
+      "name": {
+        "label": "Project Name",
+        "placeholder": "Enter project name",
+        "validation": {
+          "required": "Project name is required",
+          "maxLength": "Project name cannot exceed 50 characters"
+        }
+      },
+      "targetAmount": {
+        "label": "Target Amount",
+        "placeholder": "Enter target amount",
+        "validation": {
+          "required": "Target amount is required",
+          "min": "Target amount cannot be less than 0",
+          "invalid": "Please enter a valid number"
+        }
+      },
+      "status": {
+        "label": "Project Status",
+        "validation": {
+          "required": "Please select project status"
+        }
+      },
+      "description": {
+        "label": "Description",
+        "placeholder": "Enter project description (optional)",
+        "validation": {
+          "maxLength": "Description cannot exceed 500 characters"
+        }
+      },
+      "createdAt": {
+        "label": "Created At",
+        "picker": {
+          "title": "Select Creation Date",
+          "confirm": "Confirm",
+          "cancel": "Cancel"
+        }
+      },
+      "delete": {
+        "title": "Delete Project",
+        "message": "Are you sure you want to delete this project? This action cannot be undone and all project data will be removed.",
+        "cancel": "Cancel",
+        "confirm": "Delete"
+      },
+      "save": "Save",
+      "error": "Unknown error"
+    },
+    "log": {
+      "create": {
+        "projectInfo": {
+          "label": "Project Info",
+          "validation": {
+            "required": "Please select a project"
+          }
+        },
+        "selectProject": {
+          "label": "Select Project",
+          "placeholder": "Please select a project"
+        },
+        "logInfo": "Log Info",
+        "createdAt": {
+          "label": "Created At",
+          "picker": {
+            "title": "Select Creation Date",
+            "confirm": "Confirm",
+            "cancel": "Cancel"
+          },
+          "validation": {
+            "required": "Creation date is required"
+          }
+        },
+        "workHours": {
+          "label": "Work Hours",
+          "placeholder": "Enter work hours",
+          "validation": {
+            "min": "Work hours cannot be less than 0"
+          }
+        },
+        "investment": {
+          "label": "Investment",
+          "placeholder": "Enter investment amount",
+          "validation": {
+            "min": "Investment cannot be less than 0"
+          }
+        },
+        "revenue": {
+          "label": "Revenue",
+          "placeholder": "Enter revenue amount",
+          "validation": {
+            "min": "Revenue cannot be less than 0"
+          }
+        },
+        "remark": {
+          "label": "Remark",
+          "placeholder": "Enter remark (optional)",
+          "validation": {
+            "maxLength": "Remark cannot exceed 500 characters"
+          }
+        },
+        "validation": {
+          "atLeastOne": "At least one of work hours, investment or revenue must be filled"
+        },
+        "save": "Save"
+      },
+      "list": {
+        "empty": "No logs yet",
+        "workHours": "{{hours}} hours",
+        "investment": "Investment {{symbol}}{{amount}}",
+        "revenue": "Revenue {{symbol}}{{amount}}"
+      }
+    },
+    "detail": {
+      "notFound": "Project not found",
+      "overview": {
+        "workHours": "Total Hours",
+        "hoursUnit": "hours",
+        "investment": "Investment",
+        "revenue": "Revenue"
+      },
+      "info": {
+        "createdAt": "Created At",
+        "targetAmount": "Target Amount",
+        "lastUpdated": "Last Updated",
+        "description": "Description"
+      },
+      "tabs": {
+        "todos": "Todos",
+        "logs": "Logs"
+      },
+      "todo": {
+        "complete": {
+          "title": "Complete Task",
+          "message": "Do you want to record work hours for this task?",
+          "skip": "Skip",
+          "record": "Record",
+          "hours": {
+            "title": "Record Hours",
+            "message": "Please enter task duration (hours)",
+            "cancel": "Cancel",
+            "confirm": "Confirm",
+            "invalid": "Please enter valid work hours"
+          }
+        },
+        "delete": {
+          "title": "Delete Todo",
+          "message": "Are you sure you want to delete todo \"{{content}}\"?",
+          "cancel": "Cancel",
+          "confirm": "Delete",
+          "success": "Deleted successfully",
+          "error": "Failed to delete"
+        }
+      }
+    }
+  },
+  "todo": {
+    "list": {
+      "input": {
+        "placeholder": "Add new todo..."
+      },
+      "filter": {
+        "pending": "Todos ({{count}})",
+        "showCompleted": "Show Completed",
+        "hideCompleted": "Hide Completed",
+        "completed": "Completed ({{count}})"
+      },
+      "empty": "No todos yet",
+      "dueDate": "Due: {{date}}"
+    },
+    "status": {
+      "urgentImportant": "Urgent & Important",
+      "important": "Important Not Urgent",
+      "urgent": "Urgent Not Important",
+      "normal": "Normal Task"
+    }
+  },
+  "paywall": {
+    "appStore": {
+      "featured": "App Store Editor's Choice"
+    },
+    "title": "Upgrade to Pro for More Efficiency & Fun",
+    "subtitle": "Unlock all premium features to enhance your project management",
+    "package": {
+      "lifetime": "Lifetime",
+      "annual": "Annual Plan",
+      "monthly": "Monthly Plan",
+      "popular": "Popular",
+      "trial": "{{days}}-day free trial",
+      "discount": "{{value}}% OFF",
+      "pricePerMonthly": "Monthly Price"
+    },
+    "features": {
+      "title": "Pro Features",
+      "unlimited": {
+        "title": "Unlimited Projects",
+        "description": "Create unlimited projects to track every idea"
+      },
+      "stats": {
+        "title": "Data Analytics",
+        "description": "Project visualization with Boston Matrix for better decisions"
+      },
+      "todo": {
+        "title": "Advanced Todo",
+        "description": "Priority management, time tracking, and progress monitoring"
+      },
+      "sync": {
+        "title": "Data Sync",
+        "description": "Sync across devices, access anywhere"
+      },
+      "export": {
+        "title": "Data Export",
+        "description": "Export project data for analysis and backup"
+      }
+    },
+    "terms": {
+      "notice": "Subscription Notice",
+      "details": "• Access all premium features during subscription\n• Auto-renews, cancel anytime\n• Unused trial period expires upon purchase"
+    },
+    "links": {
+      "terms": "Terms of Use",
+      "privacy": "Privacy Policy",
+      "restore": "Restore Purchase"
+    },
+    "cta": {
+      "lifetime": "One-time payment, lifetime access",
+      "trial": "{{days}}-day free trial, then {{period}}ly",
+      "select": "Choose a plan to start free trial",
+      "start": "Get Started",
+      "choose": "Choose a Plan"
+    }
+  }
+}

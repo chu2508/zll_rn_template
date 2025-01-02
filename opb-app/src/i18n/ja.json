@@ -1,0 +1,366 @@
+{
+  "home": {
+    "overview": {
+      "title": "概要",
+      "timeRanges": {},
+      "stats": {
+        "totalProjects": "総プロジェクト数",
+        "activeProjects": "アクティブプロジェクト",
+        "workHours": "作業時間",
+        "investment": "投資",
+        "revenue": "収益",
+        "roi": "ROI"
+      }
+    },
+    "bostonMatrix": {
+      "title": "PPMマトリックス",
+      "axis": {},
+      "quadrants": {
+        "starProject": "花形事業",
+        "questionMark": "問題児事業",
+        "cashCow": "金のなる木事業",
+        "deadDog": "負け犬事業"
+      }
+    },
+    "profitTrend": {
+      "title": "利益の傾向",
+      "legend": {
+        "revenue": "収益",
+        "investment": "投資",
+        "workHours": "時間"
+      },
+      "axis": {}
+    }
+  },
+  "common": {
+    "time": {
+      "year": "年",
+      "month": "月",
+      "week": "週"
+    },
+    "cancel": "キャンセル",
+    "picker": {
+      "currency": "通貨記号を選択"
+    }
+  },
+  "timeFormat": {
+    "date": "MMM DD, YYYY",
+    "dateTime": "MMM DD, YYYY HH:mm",
+    "monthDay": "MMM DD",
+    "yearMonth": "MMM YYYY",
+    "year": "YYYY"
+  },
+  "navigation": {
+    "tabs": {
+      "home": "ホーム",
+      "resource": "リソース",
+      "profile": "プロフィール"
+    },
+    "root": {
+      "todoEdit": "Todo編集",
+      "projectDetail": "プロジェクト詳細",
+      "createProject": "プロジェクト作成",
+      "createLog": "ログ作成",
+      "paywall": "ペイウォール",
+      "dataSync": "データ同期",
+      "dataExport": "データエクスポート"
+    }
+  },
+  "resource": {
+    "actions": {
+      "addProject": "プロジェクトを追加",
+      "addLog": "ログを追加",
+      "addUser": "ユーザーを追加"
+    },
+    "stats": {
+      "totalProjects": "プロジェクト",
+      "activeProjects": "アクティブ",
+      "archivedProjects": "アーカイブ済み"
+    },
+    "project": {
+      "workHours": "時間",
+      "investment": "投資",
+      "revenue": "収益",
+      "targetAmount": "目標",
+      "lastUpdated": "最終更新",
+      "status": {
+        "planning": "計画中",
+        "developing": "開発中",
+        "operating": "運営中",
+        "archived": "アーカイブ済み"
+      },
+      "empty": {}
+    },
+    "searchBar": {
+      "placeholder": "名前でプロジェクトを検索"
+    }
+  },
+  "profile": {
+    "subscription": {
+      "free": "無料",
+      "pro": "プロ",
+      "subscribed": "購読中",
+      "validUntil": "{{date}}まで有効",
+      "permanent": "永久",
+      "upgradeHint": "すべての機能を利用するにはプロにアップグレード"
+    },
+    "groups": {
+      "preferences": "設定",
+      "dataManagement": "データ管理",
+      "support": "サポートとフィードバック",
+      "followUs": "フォローしてください"
+    },
+    "items": {
+      "language": "言語",
+      "currency": "通貨",
+      "dataExport": "データのインポート/エクスポート",
+      "rateApp": "アプリを評価",
+      "shareApp": {
+        "title": "アプリを共有"
+      },
+      "feedback": {
+        "title": "フィードバックを送信",
+        "subject": "OnePersonBusinessサポート",
+        "body": "ここにフィードバックを入力してください",
+        "success": "メールが正常に送信されました",
+        "error": "メールの送信に失敗しました"
+      },
+      "redBook": "小紅書"
+    },
+    "version": "バージョン {{version}}"
+  },
+  "project": {
+    "create": {
+      "title": "基本情報",
+      "name": {
+        "label": "プロジェクト名",
+        "placeholder": "プロジェクト名を入力",
+        "validation": {
+          "required": "プロジェクト名は必須です",
+          "maxLength": "プロジェクト名は50文字を超えてはいけません"
+        }
+      },
+      "targetAmount": {
+        "label": "目標金額",
+        "placeholder": "目標金額を入力",
+        "validation": {
+          "required": "目標金額は必須です",
+          "min": "目標金額は0未満にできません",
+          "invalid": "有効な数字を入力してください"
+        }
+      },
+      "status": {
+        "label": "プロジェクトのステータス",
+        "validation": {
+          "required": "プロジェクトのステータスを選択してください"
+        }
+      },
+      "description": {
+        "label": "説明",
+        "placeholder": "プロジェクトの説明を入力（オプション）",
+        "validation": {
+          "maxLength": "説明は500文字を超えてはいけません"
+        }
+      },
+      "createdAt": {
+        "label": "作成日",
+        "picker": {
+          "title": "作成日を選択",
+          "confirm": "確認",
+          "cancel": "キャンセル"
+        }
+      },
+      "delete": {
+        "title": "プロジェクトを削除",
+        "message": "このプロジェクトを削除してもよろしいですか？この操作は元に戻せず、すべてのプロジェクトデータが削除されます。",
+        "cancel": "キャンセル",
+        "confirm": "削除"
+      },
+      "save": "保存",
+      "error": "不明なエラー"
+    },
+    "log": {
+      "create": {
+        "projectInfo": {
+          "label": "プロジェクト情報",
+          "validation": {
+            "required": "プロジェクトを選択してください"
+          }
+        },
+        "selectProject": {
+          "label": "プロジェクトを選択",
+          "placeholder": "プロジェクトを選択してください"
+        },
+        "logInfo": "ログ情報",
+        "createdAt": {
+          "label": "作成日",
+          "picker": {
+            "title": "作成日を選択",
+            "confirm": "確認",
+            "cancel": "キャンセル"
+          },
+          "validation": {
+            "required": "作成日は必須です"
+          }
+        },
+        "workHours": {
+          "label": "作業時間",
+          "placeholder": "作業時間を入力",
+          "validation": {
+            "min": "作業時間は0未満にできません"
+          }
+        },
+        "investment": {
+          "label": "投資",
+          "placeholder": "投資額を入力",
+          "validation": {
+            "min": "投資は0未満にできません"
+          }
+        },
+        "revenue": {
+          "label": "収益",
+          "placeholder": "収益額を入力",
+          "validation": {
+            "min": "収益は0未満にできません"
+          }
+        },
+        "remark": {
+          "label": "備考",
+          "placeholder": "備考を入力（オプション）",
+          "validation": {
+            "maxLength": "備考は500文字を超えてはいけません"
+          }
+        },
+        "validation": {
+          "atLeastOne": "作業時間、投資、または収益のいずれかを入力する必要があります"
+        },
+        "save": "保存"
+      },
+      "list": {
+        "empty": "まだログはありません",
+        "workHours": "{{hours}} 時間",
+        "investment": "投資 {{symbol}}{{amount}}",
+        "revenue": "収益 {{symbol}}{{amount}}"
+      }
+    },
+    "detail": {
+      "notFound": "プロジェクトが見つかりません",
+      "overview": {
+        "workHours": "総時間",
+        "hoursUnit": "時間",
+        "investment": "投資",
+        "revenue": "収益"
+      },
+      "info": {
+        "createdAt": "作成日",
+        "targetAmount": "目標金額",
+        "lastUpdated": "最終更新",
+        "description": "説明"
+      },
+      "tabs": {
+        "todos": "Todo",
+        "logs": "ログ"
+      },
+      "todo": {
+        "complete": {
+          "title": "タスクを完了",
+          "message": "このタスクの作業時間を記録しますか？",
+          "skip": "スキップ",
+          "record": "記録",
+          "hours": {
+            "title": "時間を記録",
+            "message": "タスクの所要時間を入力してください（時間）",
+            "cancel": "キャンセル",
+            "confirm": "確認",
+            "invalid": "有効な作業時間を入力してください"
+          }
+        },
+        "delete": {
+          "title": "Todoを削除",
+          "message": "Todo \"{{content}}\" を削除してもよろしいですか？",
+          "cancel": "キャンセル",
+          "confirm": "削除",
+          "success": "正常に削除されました",
+          "error": "削除に失敗しました"
+        }
+      }
+    }
+  },
+  "todo": {
+    "list": {
+      "input": {
+        "placeholder": "新しいTodoを追加..."
+      },
+      "filter": {
+        "pending": "Todo ({{count}})",
+        "showCompleted": "完了したものを表示",
+        "hideCompleted": "完了したものを非表示",
+        "completed": "完了 ({{count}})"
+      },
+      "empty": "まだTodoはありません",
+      "dueDate": "期限: {{date}}"
+    },
+    "status": {
+      "urgentImportant": "緊急かつ重要",
+      "important": "重要だが緊急ではない",
+      "urgent": "緊急だが重要ではない",
+      "normal": "通常のタスク"
+    }
+  },
+  "paywall": {
+    "appStore": {
+      "featured": "App Store 今週のおすすめ"
+    },
+    "title": "Proにアップグレードしてより多くの効率と楽しみを",
+    "subtitle": "すべての高度な機能のロックを解除し、プロジェクト管理の効率を向上させます",
+    "package": {
+      "lifetime": "永久メンバーシップ",
+      "annual": "年間プラン",
+      "monthly": "月間プラン",
+      "popular": "人気",
+      "trial": "最初の{{days}}日間無料トライアル",
+      "discount": "{{value}}%オフ",
+      "priceForMonthly": "月額",
+      "priceForYear": "年額"
+    },
+    "features": {
+      "title": "Pro特典",
+      "unlimited": {
+        "title": "無制限のプロジェクト",
+        "description": "無制限のプロジェクトを作成し、すべてのアイデアを記録"
+      },
+      "stats": {
+        "title": "データ分析",
+        "description": "プロジェクトデータの可視化、ボストンマトリックスで意思決定をサポート"
+      },
+      "todo": {
+        "title": "高度なTodo",
+        "description": "優先順位管理、作業時間記録、進捗追跡"
+      },
+      "sync": {
+        "title": "データ同期",
+        "description": "複数デバイス間でのデータ同期、いつでもどこでもアクセス可能"
+      },
+      "export": {
+        "title": "データエクスポート",
+        "description": "プロジェクトデータのエクスポートに対応、分析とバックアップが容易"
+      }
+    },
+    "terms": {
+      "notice": "サブスクリプション注意事項",
+      "details": "• サブスクリプション期間中はすべての高度な機能を利用可能\n• サブスクリプションは自動更新されますが、いつでもキャンセル可能\n• 購入後は未使用のトライアル期間は無効になります"
+    },
+    "links": {
+      "terms": "利用規約",
+      "privacy": "プライバシーポリシー",
+      "restore": "購入を復元"
+    },
+    "cta": {
+      "lifetime": "一括払いで永久利用",
+      "trial": "最初の{{days}}日間無料、その後{{period}}で課金",
+      "select": "プランを選択して無料トライアルを開始",
+      "start": "使用開始",
+      "choose": "プランを選択���てください"
+    }
+  }
+}
