@@ -2,8 +2,8 @@ import { useNavigation } from '@react-navigation/native';
 import { StackNavigationProp } from '@react-navigation/stack';
 import dayjs from 'dayjs';
 import React, { useState } from 'react';
-import { useTranslation } from 'react-i18next';
 import { Text, TouchableOpacity, View } from 'react-native';
+import { useTranslation } from '../../../node_modules/react-i18next';
 
 import { SearchBar } from './SearchBar';
 

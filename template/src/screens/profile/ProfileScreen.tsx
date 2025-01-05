@@ -3,19 +3,19 @@ import { StackScreenProps } from '@react-navigation/stack';
 import RemixIcon, { RemixIconNames } from '@ui/icon/Remix';
 import dayjs from 'dayjs';
 import { useState } from 'react';
-import { useTranslation } from 'react-i18next';
 import {
-  Linking,
-  ScrollView,
-  Share,
-  Switch,
-  Text,
-  TouchableOpacity,
-  View,
-  useWindowDimensions,
+    Linking,
+    ScrollView,
+    Share,
+    Switch,
+    Text,
+    TouchableOpacity,
+    View,
+    useWindowDimensions,
 } from 'react-native';
 import Mailer from 'react-native-mail';
 import Svg, { Defs, LinearGradient, Rect, Stop } from 'react-native-svg';
+import { useTranslation } from '../../../node_modules/react-i18next';
 
 import packageJson from '../../../package.json';
 

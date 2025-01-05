@@ -1,6 +1,6 @@
 import RemixIcon from '@ui/icon/Remix';
-import { useTranslation } from 'react-i18next';
 import { TextInput, TextInputProps, View } from 'react-native';
+import { useTranslation } from '../../../node_modules/react-i18next';
 
 export const SearchBar = (
   props: Pick<TextInputProps, 'value' | 'onChangeText'>,

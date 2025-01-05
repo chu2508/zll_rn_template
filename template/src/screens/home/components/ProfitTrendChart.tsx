@@ -1,8 +1,8 @@
 import SegmentedControl from '@react-native-segmented-control/segmented-control';
 import { useState } from 'react';
-import { useTranslation } from 'react-i18next';
 import { Text, View } from 'react-native';
 import { CartesianChart, Line } from 'victory-native';
+import { useTranslation } from '../../../../node_modules/react-i18next';
 
 import { CHART_COLORS, font } from '../utils';
 

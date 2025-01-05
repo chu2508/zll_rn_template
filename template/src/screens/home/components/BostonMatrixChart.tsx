@@ -1,13 +1,13 @@
 import {
-  Circle,
-  DashPathEffect,
-  Line,
-  Text as SkiaText,
+    Circle,
+    DashPathEffect,
+    Line,
+    Text as SkiaText,
 } from '@shopify/react-native-skia';
 import React from 'react';
-import { useTranslation } from 'react-i18next';
 import { Text, View } from 'react-native';
 import { CartesianChart, useChartTransformState } from 'victory-native';
+import { useTranslation } from '../../../../node_modules/react-i18next';
 
 import { BOSTON_MATRIX_COLORS, font, font2, getPointColor } from '../utils';
 

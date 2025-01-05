@@ -2,21 +2,21 @@ import { useNavigation } from '@react-navigation/native';
 import RemixIcon, { RemixIconNames } from '@ui/icon/Remix';
 import { t } from 'i18next';
 import React, { useEffect, useState } from 'react';
-import { useTranslation } from 'react-i18next';
 import {
-  ActivityIndicator,
-  Alert,
-  Dimensions,
-  ScrollView,
-  Text,
-  TouchableOpacity,
-  View,
+    ActivityIndicator,
+    Alert,
+    Dimensions,
+    ScrollView,
+    Text,
+    TouchableOpacity,
+    View,
 } from 'react-native';
 import Purchases, {
-  PACKAGE_TYPE,
-  PurchasesOffering,
-  PurchasesPackage,
+    PACKAGE_TYPE,
+    PurchasesOffering,
+    PurchasesPackage,
 } from 'react-native-purchases';
+import { useTranslation } from '../../../node_modules/react-i18next';
 
 import { showToast } from '@src/components/common/Toast';
 import { useRootStore } from '@src/store/root';

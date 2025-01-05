@@ -1,6 +1,6 @@
 import RemixIcon from '@ui/icon/Remix';
-import { useTranslation } from 'react-i18next';
 import { Text, View } from 'react-native';
+import { useTranslation } from '../../../../node_modules/react-i18next';
 
 import { ProjectStatus } from '@src/orm/models/project';
 import { useOverviewStore } from '@src/store/overview';

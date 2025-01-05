@@ -1,19 +1,19 @@
 import {
-  useFocusEffect,
-  useNavigation,
-  useRoute,
+    useFocusEffect,
+    useNavigation,
+    useRoute,
 } from '@react-navigation/native';
 import { StackScreenProps } from '@react-navigation/stack';
 import RemixIcon from '@ui/icon/Remix';
 import dayjs from 'dayjs';
 import React, {
-  useCallback,
-  useEffect,
-  useLayoutEffect,
-  useState,
+    useCallback,
+    useEffect,
+    useLayoutEffect,
+    useState,
 } from 'react';
-import { useTranslation } from 'react-i18next';
 import { Alert, ScrollView, Text, TouchableOpacity, View } from 'react-native';
+import { useTranslation } from '../../../node_modules/react-i18next';
 
 import { LogList } from './components/LogList';
 

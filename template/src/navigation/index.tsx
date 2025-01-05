@@ -1,5 +1,5 @@
 import { createStackNavigator } from '@react-navigation/stack';
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from '../../node_modules/react-i18next';
 
 import { CreateProjectScreen } from '../screens/project/CreateProjectScreen';
 import { ProjectDetailScreen } from '../screens/project/ProjectDetailScreen';

@@ -1,15 +1,15 @@
 import { useNavigation } from '@react-navigation/native';
 import { StackScreenProps } from '@react-navigation/stack';
 import { useState } from 'react';
-import { useTranslation } from 'react-i18next';
 import { ScrollView, View } from 'react-native';
+import { useTranslation } from '../../../node_modules/react-i18next';
 
 import { ProjectListView } from './ProjectList';
 import { UserPoolListView } from './UserPoolList';
 
 import {
-  ActionItem,
-  FloatingActionButton,
+    ActionItem,
+    FloatingActionButton,
 } from '@src/components/common/FloatingActionButton';
 import { showToast } from '@src/components/common/Toast';
 import { RootRouterParams } from '@src/navigation/types';

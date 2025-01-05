@@ -1,7 +1,7 @@
 import RemixIcon from '@ui/icon/Remix';
 import dayjs from 'dayjs';
-import { useTranslation } from 'react-i18next';
 import { Text, View } from 'react-native';
+import { useTranslation } from '../../../../node_modules/react-i18next';
 
 import { Log } from '@src/orm/models/log';
 import { useRootStore } from '@src/store/root';

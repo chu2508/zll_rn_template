@@ -5,25 +5,24 @@ import dayjs from 'dayjs';
 import { Formik } from 'formik';
 import { t } from 'i18next';
 import React, { useRef, useState } from 'react';
-import { useTranslation } from 'react-i18next';
 import {
-  KeyboardAvoidingView,
-  Platform,
-  ScrollView,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  View,
+    KeyboardAvoidingView,
+    Platform,
+    ScrollView,
+    Text,
+    TextInput,
+    TouchableOpacity,
+    View,
 } from 'react-native';
 import DatePicker from 'react-native-date-picker';
 import * as Yup from 'yup';
+import { useTranslation } from '../../../node_modules/react-i18next';
 
 import { showToast } from '@src/components/common/Toast';
 import { getLanguageCode } from '@src/i18n/language';
 import { RootRouterParams } from '@src/navigation/types';
 import { Project } from '@src/orm/models/project';
 import { useResourceStore } from '@src/store/resource/resource';
-import { useRootStore } from '@src/store/root';
 
 // 扩展表单值类型，添加projectId和createdAt
 type LogFormValues = {

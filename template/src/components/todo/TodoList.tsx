@@ -1,8 +1,8 @@
 import RemixIcon from '@ui/icon/Remix';
 import dayjs from 'dayjs';
 import React, { useState } from 'react';
-import { useTranslation } from 'react-i18next';
 import { Text, TextInput, TouchableOpacity, View } from 'react-native';
+import { useTranslation } from '../../../node_modules/react-i18next';
 
 import { Todo, TodoPriorityNames, TodoStatus } from '@src/orm/models/todo';
 
