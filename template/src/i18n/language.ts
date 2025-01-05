@@ -1,17 +1,20 @@
 import { getLocales } from 'react-native-localize';
 
+const locales = getLocales();
+console.log('locales', locales);
 export const getLanguage = () => {
-  const locales = getLocales();
-  let locale = locales[0].languageTag;
-
-  // 处理 languageTag，提取主要的语言代码
-  if (locale.startsWith('zh-Hans')) {
-    locale = 'zh-Hans'; // 简体中文
-  } else if (locale.startsWith('zh-Hant')) {
-    locale = 'zh-Hant'; // 繁体中文
+  const code = locales[0].languageCode;
+  const tag = locales[0].languageTag;
+  if (code === 'zh') {
+    if (tag.startsWith('zh-Hans')) return 'zh-Hans';
+    if (tag.startsWith('zh-Hant')) return 'zh-Hant';
+    return 'zh-Hans';
   } else {
-    locale = 'en'; // 默认回退到英语
+    return code;
   }
+};
 
+export const getLanguageCode = () => {
+  let locale = locales[0].languageCode;
   return locale;
 };

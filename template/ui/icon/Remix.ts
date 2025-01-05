@@ -13,6 +13,6 @@ export interface RemixIconType extends React.ComponentClass<RemixIconProps> {}
 
 const RemixIcon = createIconSet(remixGlyphMap, 'remixicon', 'remixicon.ttf');
 
-export default RemixIcon as RemixIconType;
+export default RemixIcon as unknown as RemixIconType;
 
 export const { Button, getImageSource, getImageSourceSync } = RemixIcon;

@@ -6,6 +6,8 @@ module.exports = {
   trailingComma: 'all',
   tabWidth: 2,
   importOrder: [
+    'react-native-get-random-values',
+    'reflect-metadata',
     './gesture-handler',
     './global.css',
     './src/sheets',
@@ -17,6 +19,7 @@ module.exports = {
   ],
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,
+  importOrderParserPlugins: ['typescript', 'tsx', 'jsx', 'decorators-legacy'],
   plugins: [
     '@trivago/prettier-plugin-sort-imports',
     'prettier-plugin-tailwindcss',

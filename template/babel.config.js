@@ -17,12 +17,14 @@ module.exports = {
         ],
         root: ['.'],
         alias: {
-          '@': './src',
+          '@src': './src',
+          '@ui': './ui',
+          'react-native-sqlite-storage': 'react-native-quick-sqlite',
         },
       },
     ],
     'react-native-reanimated/plugin',
-    // ['@babel/plugin-proposal-decorators', {legacy: true}],
+    ['@babel/plugin-proposal-decorators', { legacy: true }],
     '@babel/plugin-transform-export-namespace-from',
   ],
 };
